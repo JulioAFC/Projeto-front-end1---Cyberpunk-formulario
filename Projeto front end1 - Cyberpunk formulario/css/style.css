@@ -1,0 +1,91 @@
+*{
+    text-align: center;
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 5px;
+         
+}
+.background{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    background-attachment: fixed;
+}
+body{
+    margin-top: 15px;
+    margin: 75px;
+    margin-bottom: 30px;
+    background-color: #F7E801;
+    border-radius: 500px;
+    font-family: 'Playfair Display', serif;
+}
+
+#form{
+    padding: 15px;
+    background-color:transparent;
+    border-radius: 5px;
+    max-width: 300px;
+    margin: 20px auto;
+    
+}
+#form h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    display: block;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    color: #F7E801;
+    background-color: black;
+}
+#form label{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    background-color: transparent;
+    color: #F7E801;
+    margin-left: 0px;
+}
+::placeholder{
+    text-align: center;
+}
+input[type='text'],
+input[type='email'],
+input[type='senha']{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #F7E801;
+    margin-bottom: 20px;
+    color: white;
+    outline: none;
+    padding: 15px;
+}
+.botao{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border:none;
+    background:none;
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #F7E801;
+}
+h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    color:white;
+    background-color: black;
+    display: inline;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: inline;
+    
+}
+.figpositivo{
+    height: 30px;
+    height: 30px;
+    display: inline-block;
+}
